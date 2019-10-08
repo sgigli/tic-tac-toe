@@ -1,0 +1,58 @@
+section {
+	width: 330px;
+	margin: 0 auto;
+	background-color: green;
+}
+
+div {
+	height: 100px;
+	width: 100px;
+	border: 5px solid black;
+	float: left;
+	display: table;
+	background-color: white;
+}
+
+h1 {
+	text-align: center;
+	color: black;
+}
+
+p {
+	font-size: 40px;
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+}
+
+button {
+	margin: 20px 0;
+	display: inline-block;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+	background-color: green;
+}
+
+/*#wrapper {
+	margin: 0 auto;
+	background-color: white;
+}*/
+
+#pVsP, #pVsC {
+	margin: 10px auto;
+	display: block;
+}
+
+#reset {
+	margin: 10px auto;
+	display: block;
+
+}
+
