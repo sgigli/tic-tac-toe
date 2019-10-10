@@ -166,32 +166,7 @@ function computerTurn() {
 		} else if (cells != 0) {
 			computerTurn();
 		}
-		/*let num = Math.floor(Math.random() * 9);
-		console.log(num);
-		console.log(section.children[num].children[0]);
-		if (section.children[num].children[0].innerHTML === "") {
-			section.children[num].children[0].innerHTML = "O";
-			cells = cells - 1;
-			nextLetter();
-		} else if (cells != 0) {
-			computerTurn();
-		}*/
 	}
-
-	/*let num = Math.floor(Math.random() * 9);
-	console.log(num);
-	console.log(section.children[num].children[0]);
-	checkTwo();
-	if (checkTwo()) {
-
-	}
-	// section.children[num].children[0].innerHTML = "O";
-	if (section.children[num].children[0].innerHTML === "") {
-		section.children[num].children[0].innerHTML = "O";
-		nextLetter();
-	} else {
-		computerTurn();
-	}*/
 }
 
 function nextLetter() {
